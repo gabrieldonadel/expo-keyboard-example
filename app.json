@@ -14,12 +14,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.gabrieldonadel.keyboard"
+    },
+    "androidStatusBar": {
+      "translucent": true
     },
     "android": {
       "softwareKeyboardLayoutMode": "resize",
